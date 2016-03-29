@@ -6,13 +6,13 @@ if __name__ == "__main__":
 # specify path to xproject    
     xpath = 'xc3sprog/xc3sprog';
 #specify starting path in file dialog
-    ppath = '~/';
+    ppath = '/home/';
 
 #running as root?
     if not os.geteuid()==0:
        sys.exit("\nYou must be root to run this application, please    use sudo and try again.\n")  
 
-# Choose bitfile
+# Choose bitfile, change ('bitsream', '*.bit") if you want to use other files
     bitfile = fdialog.askopenfilename(filetypes = [('Bistream', '*.bit')], title="Open Bitstream", initialdir=(os.path.expanduser(ppath) ) )
     print("loaded file: " + bitfile)
 

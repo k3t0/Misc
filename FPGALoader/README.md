@@ -4,7 +4,7 @@ The script is written for python3.4 but might also work with python2. I will not
 
 The script needs to be run as root!
 
-Before using the script, xc3sprog needs to be installed. YOu find the source code and a guide here: http://xc3sprog.sourceforge.net/
+Before using the script, xc3sprog needs to be installed. You find the source code and a guide here: http://xc3sprog.sourceforge.net/
 
 
 
